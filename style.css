@@ -1,3 +1,39 @@
 body{
-    background-image: linear-gradient( 45deg,grey,black);
+    background-image: linear-gradient( 45deg,rgb(177, 173, 173),black);/*determina duas cores na mesma pagina, uma ao lado da outra*/
 }
+
+div{
+    background-image: linear-gradient( 45deg,rgb(177, 173, 173),rgb(17, 17, 17));
+   
+    position: absolute;/*encaixa na posiçao one está o componente da div*/
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);/*centraliza quando a posição absoluta não centraliza*/
+    padding: 15px; ;/*distancia do elemento para a borda*/
+    border-radius: 15px;
+    color: white;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;/*tira a borda*/
+    border-radius: 15px;
+    font-size: 15px;
+
+}
+
+button{
+    background-color: gray;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    border-radius:15px;
+    cursor: pointer;
+      
+}
+
+ button:hover{/*animção do bortão*/
+    background-color: darkgrey;
+ }
