@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="css/cad.css">
 
 </head>
 <body>
@@ -16,6 +17,7 @@
             <div class="inputBox">
                 <input tipy="text" nome="nome" id="email" class="inputUser" required>
                 <label for="email" class="labelInput">Email</label>
+                <!--required é a mensagem de preenchimento obrigatório -->
             </div>
             <br><br>
             <div class="inputBox">
@@ -31,6 +33,7 @@
             <div class="inputBox">
                 <input type="date" nome="data_de_nascimento" id="data_de_nascimento" class="inputUser" required>
                 <label for="data_de_nascimento" class="labelInput"><b>data_de_nascimento</b></label>
+                
             </div>
             <br><br><br>
             <div class="inputBox">
@@ -53,10 +56,8 @@
                 <label for="senha" class="labelInput">Senha</label>
             </div>
             <br><br>
-
-           
-
-            </fieldset>
+            <input type="submit" name="submit" id="submit">
+        </fieldset>
         </form>
     </div>
 </body>
