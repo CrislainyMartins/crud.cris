@@ -12,4 +12,6 @@ $conexao=new mysqli($host,$user,$senha,$bd);
  else{
     echo'deu certo a conexao';
  }
+
+ 
 ?>
